@@ -21,17 +21,17 @@ function Content1(){
               <div class="brand">
                 <h1>BRAND</h1>
                 <ul>
-                  <li>Brand Strategy</li>
-                  <li>Logo &#38; Name</li>
-                  <li>Indentity &#38; Collateral</li>
+                  <li><a href="#">Brand Strategy</a></li>
+                  <li><a href="#">Logo &#38; Name</a></li>
+                  <li><a href="#">Indentity &#38; Collateral</a></li>
                 </ul>
               </div>
               <div class="development">
                 <h1>DEVELOPMENT</h1>
                 <ul>
-                  <li>eCommerce</li>
-                  <li>Web Development</li>
-                  <li>Mobile Apps</li>
+                  <li><a href="#">eCommerce</a></li>
+                  <li><a href="#">Web Development</a></li>
+                  <li><a href="#">Mobile Apps</a></li>
                 </ul>
               </div>
             </div>
@@ -39,8 +39,8 @@ function Content1(){
               <div class="brand">
                 <h1>MARKETING</h1>
                 <ul>
-                  <li>Digital</li>
-                  <li>Market Research</li>
+                  <li><a href="#">Digital</a></li>
+                  <li><a href="#">Market Research</a></li>
                 </ul>
               </div>
             </div>

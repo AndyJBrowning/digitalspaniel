@@ -71,7 +71,7 @@ code {
     }
     h1{
       font-size:37px;
-      color:#506473;
+      color:#000;
       margin:0;
       margin-top:45px;
       padding:0;
@@ -79,7 +79,7 @@ code {
     }
     h2{
       font-size:37px;
-      color:#000;
+      color:#506473;
       margin:0;
       margin-bottom:45px;
       padding:0;
@@ -160,19 +160,40 @@ code {
   width:50%;
   float:right;
   display: block;
+  .list-left{
+    float:left;
+    width:50%;
+  }
+  .list-right{
+    float: right;
+    width:50%;
+  }
+  ul{
+    list-style-type: none;
+    padding:0;
+    li{
+      padding-bottom:30px;
+      color:#919ea7;
+      font-weight:bold;
+    }
+  }
+  h1{
+    font-size:15px;
+    color:#506473;
+  }
 }
 .content-text{
   width:50%;
   h1{
     font-size:37px;
-    color:#506473;
+    color:#000;
     margin:0;
     padding:0;
     font-weight: normal;
   }
   h2{
     font-size:37px;
-    color:#000;
+    color:#506473;
     margin:0;
     margin-bottom:45px;
     padding:0;

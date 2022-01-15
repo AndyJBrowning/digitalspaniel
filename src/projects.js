@@ -12,43 +12,39 @@ function Projects(){
                 <h1>Some of our</h1>
                 <h2>recent projects</h2>
               </div>
-              <div class="project-options">
-                  <ul>
-                    <li><a class="project-selected" href="#">All</a></li>
-                    <li><a href="#">Branding</a></li>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Digital Marketing</a></li>
-                  </ul>
-              </div>
-                <div class="project-images">
-                    <div align="center" class="category">
-                        <div class="category1">
-                            <div class="category-text-holder">
+          </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div align="center" class="category">
-                        <div class="category2">
-                            <div class="category-text-holder">
-                                <h1>Make Ideas Happen</h1>
-                                <p>A local paper with big ideas needed A sharp new brand to inspire readers.</p>
-                                <a href="#">Full project</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div align="center" class="category">
-                        <div class="category3">
-                            <div class="category-text-holder">
-                                
-                            </div>
-                        </div>
-                    </div>
-              </div>
+          <div class="carousel">
+            <button class="carousel__button carousel__button--left is-hidden">
+              <img src="./project/left.png" alt="" />
+            </button>
+            <div class="carousel__track-container">
+              <ul class="carousel__track">
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="./project/one.jpg" alt="" />
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="./project/two.jpg" alt="" />
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="./project/three.jpg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <button class="carousel__button carousel__button--right">
+              <img src="./project/right.png" alt="" />
+            </button>
+
+            <div class="carousel__nav">
+              <button class="carousel__indicator current-slide"></button>
+              <button class="carousel__indicator"></button>
+              <button class="carousel__indicator"></button>
+            </div>
+
           </div>
       </div>
     )
   }
-  
+
   export default Projects;
 

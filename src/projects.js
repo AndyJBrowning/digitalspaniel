@@ -15,7 +15,7 @@ function Projects(){
           </div>
 
           <div class="carousel">
-            <button class="carousel__button carousel__button--left is-hidden">
+            <button class="carousel__button carousel__button--left">
               <img src="./project/left.png" alt="" />
             </button>
             <div class="carousel__track-container">

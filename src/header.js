@@ -21,7 +21,7 @@ function Header(){
           </div>
           <div class="container-right">
             <div class="navbar">
-              <a href="#services">Services</a>
+              <a href="#services" class="selected">Services</a>
               <a href="#news">Work</a>
               <a href="#contact">About</a>
               <a href="#contact">Blog</a>

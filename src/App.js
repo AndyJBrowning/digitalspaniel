@@ -1,8 +1,8 @@
 import React from 'react';
-import ScriptTag from './carousel.js';
 import Header from './header';
 import Content1 from './content1';
 import Projects from './projects';
+import Footer from './footer';
 
 function App(){
   
@@ -12,6 +12,7 @@ function App(){
       <Header />
       <Content1 />
       <Projects />
+      <Footer />
     </div>
   )
 }

@@ -6,7 +6,7 @@ function Projects(){
   }
     return(
 
-      <div class="projects-container">
+      <div class="projects-container" id="work">
           <div class="projects-textwrap">
               <div class="project-header">
                 <h1>Some of our</h1>
@@ -36,8 +36,8 @@ function Projects(){
             </button>
 
             <div class="carousel__nav">
-              <button class="carousel__indicator current-slide"></button>
               <button class="carousel__indicator"></button>
+              <button class="carousel__indicator current-slide"></button>
               <button class="carousel__indicator"></button>
             </div>
 

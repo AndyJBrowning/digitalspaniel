@@ -18,6 +18,7 @@ body {
 html{
   margin:0px;
   min-height:100%;
+  scroll-behavior: smooth;
 }
 
 code {
@@ -71,7 +72,7 @@ code {
   }
   .header-text{
     width:50%;
-    margin-left:116px;
+    margin-left:20%;
     margin-top:140px;
     p{
       color: $maincolor;
@@ -102,6 +103,7 @@ code {
   .navbar {
     text-align: center;
     margin-top:50px;
+    overflow: hidden;
     .selected{
       color:#fff;
       text-decoration: underline;
@@ -134,7 +136,7 @@ code {
     a{
       transition: color 0.5s, transform 0.5s;
       text-decoration-color: $linkhovercolor;
-      font-size:12px;
+      font-size:15px;
       color:#000;
       font-weight: bold;
       text-decoration-thickness: 4px;
@@ -160,7 +162,7 @@ code {
   padding-bottom:115px;
   display: flex;
   .text-holder{
-    width:90%;
+    width:80%;
     margin: auto;
   }
 }
@@ -176,6 +178,14 @@ code {
   .list-left{
     float:left;
     width:50%;
+    .brand{
+      button{
+        background:$subnavcolor;
+        border-radius: 50%;
+        border:0;
+        color:#fff;
+      }
+    }
   }
   .list-right{
     float: right;
@@ -195,7 +205,6 @@ code {
       a:hover{
         color:$linkhovercolor;
         text-decoration-color: #000;
-        transform:scale(1.1);
       }
 
 
@@ -234,7 +243,7 @@ code {
     a{
       transition: color 0.5s, transform 0.5s;
       text-decoration-color: $linkhovercolor;
-      font-size:12px;
+      font-size:15px;
       color:#000;
       font-weight: bold;
       text-decoration-thickness: 4px;
@@ -258,7 +267,7 @@ code {
   padding-top:80px;
   padding-bottom:80px;
   .projects-textwrap{
-    width:90%;
+    width:80%;
     margin:auto;
     .project-header{
       h1{
@@ -342,6 +351,8 @@ code {
     }
     .carousel__indicator.current-slide{
       background: rgba(0,0,0,.75);
+      width:30px;
+      height:30px;
     }
   }
   .is-hidden{
@@ -359,8 +370,8 @@ code {
   padding-bottom:115px;
   display: flex;
   .text-holder{
-    width:90%;
-    margin: auto;
+    width: 80%;
+    margin:auto;
   }
 }
 .footer-container-left{
@@ -459,7 +470,7 @@ code {
     a{
       transition: color 0.5s, transform 0.5s;
       text-decoration-color: #e5aabc;
-      font-size:12px;
+      font-size:15px;
       color:#000;
       font-weight: bold;
       text-decoration-thickness: 4px;

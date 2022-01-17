@@ -6,13 +6,13 @@ function Footer(){
   }
     return(
 
-        <div class="footer-container">
+        <div class="footer-container" id="contact">
             <div class="text-holder">
                 <div class="footer-container-left">
                     <div class="footer-text">
                         <h1>We're a brands<br></br></h1>
                         <h2>best friend</h2>
-                        <p class="letstalk"><a href="#letstalk">Let's talk</a></p>
+                        <p class="letstalk"><a href="#letstalk">Let's Talk</a></p>
                     </div>
                 </div>
                 <div class="footer-container-right">

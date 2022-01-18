@@ -23,7 +23,7 @@ function Header(){
             <div class="navbar">
               <a href="#services" class="selected">Services</a>
               <a href="#work">Work</a>
-              <a href="#contact">About</a>
+              <a href="#projects">About</a>
               <a href="#contact">Blog</a>
               <a href="#contact">Contact</a>
             </div>

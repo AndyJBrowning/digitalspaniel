@@ -6,11 +6,11 @@ function Projects(){
   }
     return(
 
-      <div class="projects-container" id="work">
+      <div class="projects-container" id="projects">
           <div class="projects-textwrap">
               <div class="project-header">
-                <h1>Some of our</h1>
-                <h2>recent projects</h2>
+                <h1>Case Studies</h1>
+                <p>Every project is different. We like to work collaboratively with our clients, tailoring each project to suit the needs of you and your business</p>
               </div>
           </div>
 

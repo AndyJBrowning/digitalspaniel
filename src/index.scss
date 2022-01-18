@@ -61,7 +61,6 @@ code {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     display:block;
     &:hover{
       background-image: url('../public/background.jpg');
@@ -206,8 +205,6 @@ code {
         color:$linkhovercolor;
         text-decoration-color: #000;
       }
-
-
     }
   }
   h1{
@@ -260,6 +257,196 @@ code {
   font-size:15px;
 }
 
+/* WORK CSS */
+
+.work-container{
+  width:100%;
+  padding-top:80px;
+  padding-bottom:80px;
+  .work-text-wrap{
+    width:80%;
+    margin:auto;
+    .work-header{
+      h1{
+        font-size:37px;
+        color:#000;
+        margin:0;
+        padding:0;
+        font-weight: normal;
+      }
+      h2{
+        font-size:37px;
+        color:$maincolor;
+        margin:0;
+        margin-bottom:45px;
+        padding:0;
+        font-weight: normal;
+      }
+    }
+    .work-nav{
+      ul{
+        list-style-type: none;
+        padding:0;
+        .selected{
+          font-weight: bold;
+          color: $linkhovercolor;
+        }
+        li{
+          display:inline;
+          padding:10px 60px;
+          text-align: center;
+          border-bottom: 2px solid $subnavcolor;
+          transition: color 0.5s, transform 0.5s;
+          a{
+            color:$maincolor;
+            text-decoration: none;
+            transition: color 0.5s, transform 0.5s;
+          }
+          a:hover{
+            color:$linkhovercolor;
+            text-decoration-color: #000;
+            font-weight: bold;
+          }
+          &:hover{
+            border-bottom: 3px solid $linkhovercolor;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .work-cards{
+      display: inline-flex;
+      color: #fff;
+      .work-cards-holder{
+        padding: 1.5em;
+        .world-cards-holder-link{
+          color:#fff;
+        }
+        .work-card-1{
+          background-image: url('../public/cards/card1.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          padding: 30px 30px;
+          float:left;
+          border-radius:2em;
+          width:400px;
+          height:300px;
+          margin:auto;
+          &:hover{
+            background-image: linear-gradient(45deg, rgba(0,0,0,1), rgba(255,255,255,0.30015756302521013) 100%), url('../public/cards/card1.jpg');
+            h1, p, a{
+              display: block;
+            }
+          }
+          h1{
+            font-size:20px;
+            display: none;
+          }
+          p{
+            font-size:14px;
+            display:none;
+          }
+          a{
+            color:#fff;
+            font-weight:bold;
+            text-decoration: none;
+            transition: color 0.5s, transform 0.5s;
+            display:none;
+          }
+          a:hover{
+            color:$linkhovercolor;
+            text-decoration-color: #000;
+          }
+        }
+        .work-card-2{
+          background-image: url('../public/cards/card2.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          padding: 30px 30px;
+          float:left;
+          border-radius:2em;
+          width:400px;
+          height:300px;
+          margin:auto;
+          &:hover{
+            background-image: linear-gradient(45deg, rgba(0,0,0,1), rgba(255,255,255,0.30015756302521013) 100%), url('../public/cards/card2.jpg');
+            h1, p, a{
+              display: block;
+            }
+          }
+          h1{
+            font-size:20px;
+            display: none;
+          }
+          p{
+            font-size:14px;
+            display:none;
+          }
+          a{
+            color:#fff;
+            font-weight:bold;
+            text-decoration: none;
+            transition: color 0.5s, transform 0.5s;
+            display:none;
+          }
+          a:hover{
+            color:$linkhovercolor;
+            text-decoration-color: #000;
+          }
+        }
+        .work-card-3{
+          background-image: url('../public/cards/card3.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          padding: 30px 30px;
+          float:left;
+          border-radius:2em;
+          width:400px;
+          height:300px;
+          margin:auto;
+          &:hover{
+            background-image: linear-gradient(45deg, rgba(0,0,0,1), rgba(255,255,255,0.30015756302521013) 100%), url('../public/cards/card3.jpg');
+            h1, p, a{
+              display: block;
+            }
+          }
+          h1{
+            font-size:20px;
+            display: none;
+          }
+          p{
+            font-size:14px;
+            display:none;
+          }
+          a{
+            color:#fff;
+            font-weight:bold;
+            display:none;
+            text-decoration: none;
+            transition: color 0.5s, transform 0.5s;
+          }
+          a:hover{
+            color:$linkhovercolor;
+            text-decoration-color: #000;
+          }
+        }
+      }
+    }
+  }
+}
+
 /* PROJECTS CSS */
 
 .projects-container{
@@ -270,6 +457,7 @@ code {
     width:80%;
     margin:auto;
     .project-header{
+      text-align:center;
       h1{
         font-size:37px;
         color:#000;
@@ -277,8 +465,8 @@ code {
         padding:0;
         font-weight: normal;
       }
-      h2{
-        font-size:37px;
+      p{
+        font-size:15px;
         color:$maincolor;
         margin:0;
         margin-bottom:45px;
